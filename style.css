@@ -1,0 +1,145 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #7c6fec;
+}
+body {
+    background-color: #c2a9c9;
+    background:url(./azul.jpg)no-repeat;
+    font-family: Rubik, Arial;
+  }
+#logo {
+	font-size: 24px;
+	font-weight: bold;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav li {
+	margin-left: 65px;
+	
+}
+nav a {
+	text-decoration: none;
+	color: #333;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+nav a:hover {
+	background-color: #ccc;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 20px 0;
+}
+thead {
+	background-color: #eee;
+}
+th {
+	padding: 10px;
+	text-align: left;
+}
+td {
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+footer {
+	background-color: #eee;
+	padding: 10px;
+	text-align: center;
+	position:fixed;
+top: 510px;
+left: 10px;
+}
+.tablad{
+	display:block;
+	 width: 60%;
+	 height: 20vh;
+   position:absolute;
+   margin-top: 40px;
+   bottom: 130px;
+   left: 390px;  
+   
+   }
+   
+footer a {
+	text-decoration: none;
+	color: #333
+	
+}
+
+
+.formulario{
+	width: 14%;
+	height: 15vh;
+  position:fixed;
+  padding:1px;
+	margin-top: 65px;
+  bottom: 350px;
+  left: 390px; 
+	background-color:  #f1ecec;
+  }
+  
+  .fom2{
+	width: 14%;
+	height: 15vh;
+  position:fixed;
+	margin-top: 65px;
+  bottom: 350px;
+  left: 590px; 
+	background-color: #f1ecec;
+  }
+  
+  
+  .fom3{
+	width: 14%;
+	height: 15vh;
+  position:fixed;
+	margin-top: 65px;
+  bottom: 350px;
+  right: 310px; 
+	background-color: #fcf9f9;
+  }
+  
+  .fom4{
+	width: 14%;
+	height: 15vh;
+  position:fixed;
+	margin-top: 65px;
+  bottom: 350px;
+  right: 150px; 
+	background-color: #f1ecec;
+  }
+
+  navoj ul {
+	list-style:none;
+	margin: 0;
+	padding: 5;
+	display: absolute;
+}
+navoj li {
+	margin-left:0px;
+
+}
+navoj a {
+	text-decoration: none;
+	color: #333;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+navoj a:hover {
+	background-color: #ccc;
+}
+.izq{
+	position:fixed;
+	margin-top: 35px;
+  left: 5spx; 
+}
